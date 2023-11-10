@@ -1,0 +1,14 @@
+body {
+	background-color: darkblue;
+}
+
+h1 {
+	color: whitesmoke;
+	margin: 20px;
+	font-family: serif;
+}
+
+p {
+	color: whitesmoke;
+	margin: 50px;
+}
