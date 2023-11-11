@@ -3,12 +3,24 @@ body {
 }
 
 h1 {
+	font-size: 35px;
+	text-align: center;
 	color: whitesmoke;
 	margin: 20px;
 	font-family: serif;
 }
+h2 {
+	color: limegreen;
+}
 
 p {
+	font-size: 16px;
 	color: whitesmoke;
 	margin: 50px;
+}
+
+nav {
+	background-color: black;
+	padding: 20px;
+	margin-bottom: 100px;
 }
