@@ -1,5 +1,5 @@
 body {
-	background-color: darkblue;
+	background-color: darkseagreen;
 }
 
 h1 {
@@ -10,17 +10,32 @@ h1 {
 	font-family: serif;
 }
 h2 {
+	margin: 20px;
 	color: limegreen;
 }
 
-p {
+div {
+	text-align: center;
+	font-family: serif;
 	font-size: 16px;
 	color: whitesmoke;
 	margin: 50px;
 }
 
 nav {
-	background-color: palegreen;
+	
+	background-color: darkolivegreen;
 	padding: 20px;
 	margin-bottom: 100px;
+}
+
+ul {
+	border:2px ;
+	background-color: seagreen;
+	font-size: 16px;
+	color: whitesmoke;
+	margin: 20px;
+}
+li {
+	border-bottom: seagreen;
 }
