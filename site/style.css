@@ -1,5 +1,10 @@
 body {
-	background-color: darkblue;
+	background-color: darkseagreen;
+}
+header {
+	background-color: darkcyan;
+	border: 2px solid darkgoldenrod;
+	padding: 2px;
 }
 
 h1 {
@@ -10,17 +15,37 @@ h1 {
 	font-family: serif;
 }
 h2 {
-	color: limegreen;
+	background-color: darkolivegreen;
+	border-bottom: 2px solid darkkhaki;
+	border-left: 1px solid darksalmon;
+	margin: 20px;
+	color: floralwhite;
 }
 
-p {
+div {
+	text-align: center;
+	font-family: serif;
 	font-size: 16px;
 	color: whitesmoke;
 	margin: 50px;
 }
 
 nav {
-	background-color: black;
-	padding: 20px;
-	margin-bottom: 100px;
+	
+	background-color: darkolivegreen;
+	padding: 2px;
+	margin: 10px;
+}
+
+ul {
+	
+	font-size: 16px;
+	color: whitesmoke;
+	margin: 4px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+
+}
+li {
+	border-bottom: darkgoldenrod;
 }
