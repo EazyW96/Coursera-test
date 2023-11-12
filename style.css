@@ -15,6 +15,7 @@ h1 {
 	font-family: serif;
 }
 h2 {
+	background-color: darkolivegreen;
 	border-bottom: 2px solid darkkhaki;
 	border-left: 1px solid darksalmon;
 	margin: 20px;
@@ -37,8 +38,7 @@ nav {
 }
 
 ul {
-	border:5px solid darkgoldenrod;
-	background-color: seagreen;
+	
 	font-size: 16px;
 	color: whitesmoke;
 	margin: 4px;
