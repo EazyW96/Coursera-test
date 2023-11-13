@@ -1,6 +1,11 @@
 body {
 	background-color: darkseagreen;
 }
+header {
+	background-color: darkcyan;
+	border: 2px solid darkgoldenrod;
+	padding: 2px;
+}
 
 h1 {
 	font-size: 35px;
@@ -10,8 +15,15 @@ h1 {
 	font-family: serif;
 }
 h2 {
+	text-align: center;
+	background-color: darkolivegreen;
+	border-bottom: 2px solid darkkhaki;
+	border-left: 1px solid darksalmon;
 	margin: 20px;
 	color: floralwhite;
+}
+h3 {
+	text-align: center;
 }
 
 div {
@@ -25,17 +37,32 @@ div {
 nav {
 	
 	background-color: darkolivegreen;
-	padding: 20px;
-	margin-bottom: 100px;
+	padding: 2px;
+	margin: 10px;
+}
+article {
+	text-align:;
 }
 
 ul {
-	border:2px ;
-	background-color: seagreen;
+	
 	font-size: 16px;
 	color: whitesmoke;
-	margin: 20px;
+	margin: 4px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+
 }
 li {
-	border-bottom: seagreen;
+	border-bottom: darkgoldenrod;
+}
+p {
+	color: blue;
+	font-family: ;
+	font-size: 16px;
+	text-align: center;
+	opacity: .8;
+}
+pre {
+	font-size: 16px;
 }
