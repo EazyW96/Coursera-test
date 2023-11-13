@@ -15,11 +15,15 @@ h1 {
 	font-family: serif;
 }
 h2 {
+	text-align: center;
 	background-color: darkolivegreen;
 	border-bottom: 2px solid darkkhaki;
 	border-left: 1px solid darksalmon;
 	margin: 20px;
 	color: floralwhite;
+}
+h3 {
+	text-align: center;
 }
 
 div {
@@ -36,6 +40,9 @@ nav {
 	padding: 2px;
 	margin: 10px;
 }
+article {
+	text-align:;
+}
 
 ul {
 	
@@ -48,4 +55,14 @@ ul {
 }
 li {
 	border-bottom: darkgoldenrod;
+}
+p {
+	color: blue;
+	font-family: ;
+	font-size: 16px;
+	text-align: center;
+	opacity: .8;
+}
+pre {
+	font-size: 16px;
 }
