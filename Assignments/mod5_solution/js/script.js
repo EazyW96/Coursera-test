@@ -11,7 +11,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 (function (global) {
 
-var dc = {};
+var $dc = {};
 
 var homeHtmlUrl = "../mod5_solution/snippets/home-snippet.html";
 var allCategoriesUrl =
