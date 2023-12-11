@@ -23,11 +23,11 @@ $(function () {
 (function (global) {
   var dc = {};
 
-  var homeHtml = "snippets/home-snippet.html";
+  var homeHtml = "../snippets/home-snippet.html";
   var allCategoriesUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
   var categoriesTitleHtml = "snippets/categories-title-snippet.html";
-  var categoryHtml = "snippets/category-snippet.html";
+  var categoryHtml = "../snippets/category-snippet.html";
 
   // Convenience function for inserting innerHTML for 'select'
   var insertHtml = function (selector, html) {
@@ -38,7 +38,7 @@ $(function () {
   // Show loading icon inside element identified by 'selector'.
   var showLoading = function (selector) {
     var html = "<div class='text-center'>";
-    html += "<img src='images/ajax-loader.gif'></div>";
+    html += "<img src='../images/ajax-loader.gif'></div>";
     insertHtml(selector, html);
   };
 
